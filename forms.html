@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+<h1 style="text-align:center">Race registration</h1>
+<div class="conteiner">
+    <form action="/race">
+   <p> <label for="fname">First Name</label> <br>
+    <input type="text" id="fname" name="fname"> </p>
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lname">
+   
+        <div>
+            <p>Select a race</p>
+
+        <input type="radio" id="marathon" name="race" value="marathon">
+        <label for="marathon">Marathon</label>
+    </div>
+    <div>
+        <input type="radio" id="halfmarathon" name="race" value="halfmarathon">
+        <label for="halfmarathon">Halfmarathon</label>
+    </div>
+    <div>
+        <input type="radio" id="sprint" name="race" value="sprint">        
+        <label for="sprint">Sprint</label>
+    </div>
+    <div>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" required minlength="8" maxlength="20">
+    </div>
+    <div>
+        <br>
+        <b></b>
+        <label for="age"> <q>cao</q> Select age group</label>
+        <select name="age" id="age">
+        <option value="under18">Under 18</option>
+        <option value="over18">18-30</option>
+        <option value="over30">Over 30</option>
+    </select>
+
+    </div>
+    <p><label for="confirm">Confirm</label>
+        <input type="checkbox" id="confirm" name="confirm" required></p>
+
+    <button>Register</button>
+
+
+</form>
+</div>
+</body>
+</html>

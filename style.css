@@ -1,0 +1,12 @@
+.jedan {
+    width:200px;
+    height: 200px;
+    background-color: rgb(30, 196, 202);
+    transition: border-radius 1s, background-color 3s;
+}
+
+.jedan:hover {
+    background-color: rgb(47, 153, 61);
+    border-radius: 50%;
+    
+}
