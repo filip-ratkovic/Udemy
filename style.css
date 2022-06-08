@@ -1,12 +1,24 @@
-.jedan {
-    width:200px;
-    height: 200px;
-    background-color: rgb(30, 196, 202);
-    transition: border-radius 1s, background-color 3s;
+/* body{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+} */
+
+img {
+    width: 30%;
+    margin: calc(10%/6);
 }
 
-.jedan:hover {
-    background-color: rgb(47, 153, 61);
-    border-radius: 50%;
-    
+@media (max-width: 680px) {
+    img {
+        width: 45%;
+        margin: calc(10%/4);
+    }
+}
+
+@media (max-width:400px) {
+    img {
+        width: 95%;
+        margin: calc(5%/2);
+    }
 }
