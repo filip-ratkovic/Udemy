@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.animals-conteiner{
+width: 100vw;
+height: 700px;
+display: flex;
+}
+
+.bovine, .sheeps, .goats{
+    filter: blur(3px) grayscale(100%);
+}
+
+
+.bovine{
+    width: 33%;
+    height: 80%;
+    background-size: cover;
+    background-repeat:no-repeat;
+background-position: center;
+}
+
+.sheeps{
+    width: 33%;
+    height: 80%;
+    background-size: cover;
+    background-repeat:no-repeat;
+background-position: center;
+}
+.goats{
+    width: 33%;
+    height: 80%;
+    background-size: cover;
+    background-repeat:no-repeat;
+background-position: center; 
+}
+
+.bovine.active {
+        filter: grayscale(0%);
+    
+}
