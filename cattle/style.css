@@ -39,7 +39,6 @@ background-position: center;
 background-position: center; 
 }
 
-.bovine.active {
+.active {
         filter: grayscale(0%);
-    
 }
