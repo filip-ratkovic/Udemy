@@ -7,8 +7,9 @@
 
 .animals-conteiner{
 width: 100vw;
-height: 700px;
+height: 600px;
 display: flex;
+overflow: hidden;
 }
 
 .bovine, .sheeps, .goats{
@@ -42,3 +43,9 @@ background-position: center;
 .active {
         filter: grayscale(0%);
 }
+
+main {
+    width:100vw;
+    overflow: hidden;
+}
+
