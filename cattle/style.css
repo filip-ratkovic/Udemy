@@ -1,19 +1,20 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.animals-conteiner{
-width: 100%;
-height: 600px;
-display: flex;
-justify-content: center;
-overflow: hidden;
+.animals-conteiner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.bovine, .sheeps, .goats{
+.bovine,
+.sheeps,
+.goats {
     filter: blur(3px) grayscale(100%);
     position: relative;
 }
@@ -24,63 +25,117 @@ overflow: hidden;
     left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    font-weight: 800;
 }
-.first-letter{
+
+.first-letter {
     color: #26a1e4;
 }
 
 
-.bovine{
+.bovine {
     width: 33%;
     height: 80%;
     background-size: cover;
-    background-repeat:no-repeat;
-background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.sheeps{
+.sheeps {
     width: 33%;
     height: 80%;
     background-size: cover;
-    background-repeat:no-repeat;
-background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.goats{
+
+.goats {
     width: 33%;
     height: 80%;
     background-size: cover;
-    background-repeat:no-repeat;
-background-position: center; 
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .active {
-        filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 main {
-    width:100%;
-    overflow: hidden;
+    color: #545454;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.info-conteiner {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
-    color: #545454 ;
+    justify-content: space-between;
 }
 
-main h2 {
-    color: #26a1e4 ;
+.info-conteiner h2 {
+    color: #26a1e4;
 }
 
-#inf-link, #inf-link a {
-    color: #26a1e4 ;
+#inf-link,
+#inf-link a {
+    color: #26a1e4;
     text-decoration: none;
 }
 
-.information-text{
-    width: 30%;
-    margin: 20px 20px 20px 80px;
+.information-text {
+    width: 40%;
 }
 
 .information-img {
-    width: 30%;
+    width: 40%;
     align-self: center;
+}
+
+
+.samples {
+    padding-top: 100px;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+
+.samples h2,
+.samples h3 {
+    text-align: left;
+}
+
+.samples h2 {
+    color: #26a1e4;
+
+}
+
+
+th,
+td,
+table {
+    border-spacing: 0px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    color: #26a1e4;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even)  {
+    background-color: #e6ecef;
+}
+
+.drugi-red{
+    color: #a09c9c;
+    padding-top: 5px;
 }
