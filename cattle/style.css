@@ -139,3 +139,11 @@ tr:nth-child(even)  {
     color: #a09c9c;
     padding-top: 5px;
 }
+
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    background-color: #545454;
+    color: white;
+}
