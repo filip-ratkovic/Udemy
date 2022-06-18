@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .animals-conteiner {
     width: 100%;
@@ -10,6 +13,36 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
+    position: relative;
+}
+nav{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    background: transparent;
+    z-index: 1;
+}
+nav a{
+    color: #747171;
+    text-decoration: none;
+}
+.nav-active{
+    color: white;
+text-decoration:underline;
+text-decoration-color: #26a1e4;
+    font-weight:550;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px;
 }
 
 .bovine,
@@ -23,7 +56,6 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: 800;
 }

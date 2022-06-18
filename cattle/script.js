@@ -16,3 +16,28 @@ function removeActive(el) {
         el.classList.remove("active")
     })
     }
+
+
+
+    ///////////////////////
+
+    let link = document.querySelectorAll(".link")
+
+
+link.forEach((el) => {
+   
+    el.addEventListener("click", () => {
+        removeNavActive()
+el.classList.add("nav-active")
+    })
+})
+
+
+
+function removeNavActive(el) {
+    link.forEach((el) => {
+        el.classList.remove("nav-active")
+    })
+    }
+
+   
