@@ -68,7 +68,7 @@ main {
 }
 
 .info-conteiner {
-    width: 70%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
     display: flex;
@@ -97,7 +97,7 @@ main {
 
 .samples {
     padding-top: 100px;
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: left;
 }
@@ -141,9 +141,25 @@ tr:nth-child(even)  {
 }
 
 footer{
+    margin-top: 30px;
     text-align: center;
     width: 100%;
     padding: 30px;
     background-color: #545454;
     color: white;
+}
+
+@media  screen and (max-width: 768px) {
+    .info-conteiner{
+        flex-direction: column;
+        justify-content:center;
+    }
+.information-img, .information-text {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.samples {
+    width: 95%;
+}
 }
