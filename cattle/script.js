@@ -56,7 +56,6 @@ function removeNavActive(el) {
 
    sheeps.addEventListener("click", () => {
     text.forEach((el) => {
-        console.log(el);
         el.innerHTML = ""
     el.innerHTML = "sheeps"
     })
