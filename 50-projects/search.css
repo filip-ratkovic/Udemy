@@ -1,0 +1,32 @@
+
+.search-container{
+    margin: auto;
+    width:300px;
+    height: 30px;
+    background-color: #e6e6e6;
+    color: rgb(36, 35, 35);
+    border-radius: 4px;
+    align-self: center;
+    position: relative;
+    border: solid #797676 1px;
+}
+
+.search-container input {
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+.search-container button {
+    position: absolute;
+    right: 0;
+    height:100%;
+    width: 40px;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+
+
+
