@@ -1,15 +1,19 @@
-let filip = { name: "FIlip",  age:27, city:"Novi Pazar",
-    all() {
-        `${this.name}  is ${this.age} from ${this.city}`
-    }
+const btn = document.querySelectorAll("button")
+
+
+for(let button of btn) {
+    button.addEventListener("click", colorised)
 }
 
-let stefan = { name: "Stefan",  age:24,country: "Serbia",
-    all() {
-        `${this.name}  is ${this.age} from ${this.city}`
-    }
+
+function randomColor () {
+    r=Math.floor(Math.random()*256)
+    g=Math.floor(Math.random()*256)
+    b=Math.floor(Math.random()*256)
+    return `rgb(${r},${g},${b})`;
 }
 
-let friends = {...filip, id:23, country: "Serbia"}
-
-console.log(friends)
+function colorised() {
+    this.style.backgroundColor=randomColor();
+    this.style.fontSize="14px"
+}
