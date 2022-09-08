@@ -1,19 +1,15 @@
-const btn = document.querySelectorAll("button")
+const form = document.querySelector('#formSearch');
+
+form.addEventListener('submit',  (e) => {
+e.preventDefault()
+console.log("s");
+})
 
 
-for(let button of btn) {
-    button.addEventListener("click", colorised)
+const dadJoke = async () => {
+    const config = {headers: {Accept: 'application/json'}}
+    const res = await axios.get(`https://icanhazdadjoke.com/`, config);
+    console.log(res.data)
 }
 
-
-function randomColor () {
-    r=Math.floor(Math.random()*256)
-    g=Math.floor(Math.random()*256)
-    b=Math.floor(Math.random()*256)
-    return `rgb(${r},${g},${b})`;
-}
-
-function colorised() {
-    this.style.backgroundColor=randomColor();
-    this.style.fontSize="14px"
-}
+dadJoke()
