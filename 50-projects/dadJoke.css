@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+}
+
+.conteiner{
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.btn {
+    width:30%;
+    margin: 0 auto;
+    background-color: rgb(87, 62, 146);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(.98)
+}
+
