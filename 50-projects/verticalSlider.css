@@ -22,6 +22,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    transition: transform 0.5s ease-in-out;
 }
 
 .left-slide > div {
@@ -46,6 +47,7 @@ color: #fff;
     left: 35%;
     top: 0;
     width: 65%;
+    transition: transform 0.5s ease-in-out;
 }
 
 .right-slide > div {
