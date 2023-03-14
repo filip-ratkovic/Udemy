@@ -8,7 +8,6 @@ const todos = JSON.parse(localStorage.getItem('todos'))
 
 formTodo.addEventListener('submit', (e) => {
     e.preventDefault();
-
     addTodo()
 })
 

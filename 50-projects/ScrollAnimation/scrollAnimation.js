@@ -11,7 +11,6 @@ function checkBox() {
 
 boxes.forEach(box => { 
     const boxTop = box.getBoundingClientRect().top;
-    console.log(boxTop, trigger);
     if(boxTop<trigger) {
         box.classList.add("show")
     }
