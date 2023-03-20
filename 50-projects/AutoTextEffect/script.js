@@ -23,25 +23,3 @@ function writeText() {
     setTimeout(writeText, 200);
    
 }
-
-
-
-
-
-// const textEl = document.getElementById('text');
-// // const text = 'I am Filip Ratkovic';
-// const tex
-// let index = 1;
-
-// writeText();
-
-// function writeText() {
-//     textEl.innerText = text.slice(0,index);
-//     index ++;
-
-//     if(index > text.length) {
-//         index = 1
-//     }
-
-//     setTimeout(writeText, 300);
-// }

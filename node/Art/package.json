@@ -1,0 +1,14 @@
+{
+  "name": "art",
+  "version": "1.0.0",
+  "description": "Something",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Filip Ratkovic",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.5.2"
+  }
+}
