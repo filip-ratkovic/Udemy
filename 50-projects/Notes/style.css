@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    margin: 0;
+    background-color: #b7b7b7;
+}
+
+.add {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: rgb(7, 128, 47);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+}
+
+.note {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 4px 4px 12px rgba(0, 0,0,0.6);
+}
+
+.tools {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(7, 128, 47);
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tools button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    width: 300px;
+    height: 360px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
