@@ -21,6 +21,15 @@ app.get('/r/:subreddit', (req,res) => {
     res.render('subreddit', {subreddit})
 })
 
+app.get('/search', (req,res) => {
+   
+    const {q} = req.query;
+    if(!q) {
+        res.send('Noting searched')
+    }
+    res.send(`<h1> We are searching for:  ${q}`, q={q})
+} )
+
 app.listen('3000', () => {
 
 });
